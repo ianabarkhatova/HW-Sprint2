@@ -1,0 +1,15 @@
+.App {
+    --header_height: 60px;
+    padding: 0 70px;
+}
+
+.hw {
+    background-color: red;
+}
+
+.hwTitle {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
