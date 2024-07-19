@@ -1,5 +1,6 @@
 .message {
     padding-bottom: 30px;
+    width: 100%;
 }
 
 .imageAndText {
@@ -7,6 +8,7 @@
     flex-direction: row-reverse;
     align-items: flex-end;
     gap: 10px;
+    max-width: 100%;
 }
 
 .imageAndText img {
@@ -21,6 +23,10 @@
     position: relative;
     padding: 7px 12px 9px;
     box-shadow: 0 1px 2px 0 #1D21261A;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .text:after {
@@ -53,6 +59,10 @@
     color: #FFFFFF;
     text-align: right;
     padding-top: 3px;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .time {

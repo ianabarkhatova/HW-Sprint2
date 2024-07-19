@@ -53,6 +53,7 @@
     color: #000000;
     text-align: left;
     padding-top: 3px;
+    max-width: 100%;
 }
 
 .friendTime {
