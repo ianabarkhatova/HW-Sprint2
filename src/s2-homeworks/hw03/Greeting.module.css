@@ -44,12 +44,10 @@
     border: 1px solid black;
     outline: none;
     font-size: 16px;
-
 }
 
 .input:focus-visible {
     font-size: 16px;
-
 }
 
 .errorInput {
