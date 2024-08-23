@@ -1,10 +1,23 @@
 .spanBlock {
+    display: flex;
+    gap: 20px;
 }
 
 .span {
+    width: 100%;
+    max-width: 274px;
+    height: auto;
+    color: #0080FF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
 }
 
 .input {
+
 }
 
 .pen {
