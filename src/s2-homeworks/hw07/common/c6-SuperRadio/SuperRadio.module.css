@@ -1,15 +1,42 @@
 .radio {
+    appearance: none;
 }
 
 .radio::before {
+    position: absolute;
+    content: url('./radio-blank.svg');
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    z-index: 9999;
+    left: -26px;
+    top: 0;
 }
 
 
 .radio:checked::before {
+    position: absolute;
+    content: url('./radio-checked.svg');
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    z-index: 9999;
+    left: -26px;
+    top: 0;
 }
 
 .label {
+    position: relative;
+
 }
 
 .options {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
 }

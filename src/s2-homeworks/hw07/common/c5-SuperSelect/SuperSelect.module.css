@@ -1,9 +1,42 @@
 .select {
+    width: 165px;
+    height: 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 2px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    appearance: none;
+    position: relative;
+    outline: none;
+    padding-left: 10px;
+}
+
+.select::before {
+    position: absolute;
+    content: url("chevron-down.svg");
+    width: 10px;
+    height: 6px;
+    display: inline-block;
+    z-index: 9999;
+    top: 0;
+    right: 10px;
+    pointer-events: none;
+    left: -26px;
 }
 
 .select:focus {
+    border: 1px solid rgb(0, 0, 0);
 }
 
 
 .option:hover {
+    /*background: rgb(30, 144, 255);*/
+    /*color: rgb(255, 255, 255);*/
 }
+
+
