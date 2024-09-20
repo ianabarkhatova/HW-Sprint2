@@ -1,3 +1,26 @@
 .loader {
-    /*свг и/или анимация*/
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    border: 10px solid #512DE4;
+    border-left-color: transparent;;
+    background-color: transparent;
+    animation: spin 1s linear infinite; /* 1s spin animation */
+    animation-delay: 1ms; /* Delay to start the animation */
 }
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*border: conic-gradient(*/
+/*        from 90deg at 50% 50%, !* Start from 90 degrees, centered *!*/
+/*        rgba(255, 255, 255, 0) 0deg, !* Transparent starting point *!*/
+/*        #512DE4 360deg !* End with purple color *!*/
+/*);*/
+
