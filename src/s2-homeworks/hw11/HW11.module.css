@@ -1,8 +1,20 @@
-.container {
-}
 
 .wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 250px;
 }
 
 .number {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
 }
+
+.container > .wrapper:first-child {
+    /*width: 152px;*/
+}
+
+
