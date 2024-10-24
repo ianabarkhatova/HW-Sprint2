@@ -1,22 +1,54 @@
 .buttonsContainer {
+    display: flex;
+    gap: 20px;
 }
 
 .responseContainer {
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    padding: 30px 200px 0 200px;
 }
 
 .imageContainer {
+
 }
 
 .image {
+    width: 418px;
+    height: 315px;
 }
 
 .textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 .code {
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
 }
 
 .text {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+    padding-top: 10px;
 }
 .info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
 }
