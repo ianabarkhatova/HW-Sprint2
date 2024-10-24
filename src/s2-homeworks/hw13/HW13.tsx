@@ -38,7 +38,7 @@ const HW13 = () => {
             .then((res) => {
                 setCode('Код 200!')
                 setImage(success200)
-                setText("...всё ок) 'код 200 - обычно означает что скорее всего всё ок)")
+                setText("...всё ок)")
 
             })
             .catch((e) => {
@@ -51,12 +51,11 @@ const HW13 = () => {
                 }
                 if(e.response.status === 400) {
                     setCode('Ошибка 400!')
-                    setText("Ты не отправил success в body вообще! ошибка 400 - обычно означает что скорее всего фронт отправил что-то не то на бэк!")
+                    setText("Ты не отправил success в body вообще!")
                     setImage(error400)
                 } else {
                     setImage(errorUnknown)
-                    setCode('Error!')
-                    setText(`${e.message}\n${e.name}`)
+                    setText(`Error`)
                 }
             }).finally(()=> setInfo(''))
     }
