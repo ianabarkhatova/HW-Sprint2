@@ -41,7 +41,8 @@ const SuperSelect: React.FC<SuperSelectPropsType> = ({
         // если onChangeOption вообще существует, то...
         if(onChangeOption) {
             onChangeOption(Number(e.currentTarget.value))
-            // console.log(typeof e.currentTarget.value)
+        } else {
+            console.warn("onChangeOption is not defined")
         }
     }
 

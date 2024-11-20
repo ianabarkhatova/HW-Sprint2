@@ -1,11 +1,38 @@
 .pagination {
     display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+
+    button {
+        background-color: transparent;
+        width: 24px;
+        height: 24px;
+        border-radius: 2px 0px 0px 0px;
+    }
 }
 
-.text1 {
+.text1, .text2 {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #0D0B0C;
+    display: flex;
+}
+
+.newSelect {
+    width: 39px;
+    height: 24px;
+    border-radius: 2px 0px 0px 0px;
+    border: 1px solid #ECEBEB;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0;
+    display: flex;
+    margin: 0 5px 0 5px;
 
 }
 
-.text2 {
 
-}
